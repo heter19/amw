@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Piłkarze</title>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style/style.css" />     
+  <meta charset="utf-8"> 
+  <script src="https://code.jquery.com/jquery-3.3.1.js"> </script>
+
+  </head>
+  <body class="container-fluid">
+	<header>
+	<center>
+    <img src="images/pp.jpg" alt="Piłka">
+	</center>
+	</header>
+	<br>
+	<nav class="navbar navbar-inverse">
+	 <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Blog Piłkarski</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="blog.php">Home</a></li>
+      <li><a href="add.php">Dodaj</a></li>
+      <li><a href="rejestruj.php">Rejestruj</a></li>
+      <li><a href="loguj.php">Loguj</a></li>
+	  <li><a href="react.html">React</a></li>
+	  <li class="active"><a href="drop.html">DROP</a></li>
+	  
+    </ul>
+  </div>
+	</nav>
+			
+	
+		<main id = "main" class ="container-fluid">	
+		<hr>
+
+		<button class="accordion">Section 1</button>
+<div class="panel">
+  <p>Lorem ipsum...</p>
+</div>
+
+<button class="accordion">Section 2</button>
+<div class="panel">
+  <p>Lorem ipsum...</p>
+</div>
+
+<button class="accordion">Section 3</button>
+<div class="panel">
+  <p>Lorem ipsum...</p>
+</div>
+		
+		
+<right>		
+	<div class="dropdown">
+  <button class="dropbtn">Dropdown</button>
+  <div class="dropdown-content">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+  </right>
+</div>
+<button id="myBtn">Otwórz powitanie</button>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>Witaj</p>
+  </div>
+
+</div>
+
+<button class="btn success">Success</button>
+<button class="btn info">Info</button>
+<button class="btn warning">Warning</button>
+<button class="btn danger">Danger</button>
+<button class="btn default">Default</button>
+
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">About</a>
+  <a href="#">Services</a>
+  <a href="#">Clients</a>
+  <a href="#">Contact</a>
+</div>
+<center>
+<!-- Use any element to open the sidenav -->
+<span onclick="openNav()">Otwórz</span>
+</center>
+<!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+<div id="main">
+  ...
+</div>
+<center>
+<button onclick="myFunction()">Kliknij</button>
+
+<div id="myDIV">
+  Na dole z prawej masz niedziałającą wyszukiwarkę.
+</div>
+</center>
+
+
+<div class="topnav">
+  
+  <a class="active" href="#about">About</a>
+  <a href="#contact">Contact</a>
+  <input type="text" placeholder="Search..">
+</div>
+
+
+
+<div class="popup" onclick="myFunctio()">Wciśnij dymka
+  <span class="popuptext" id="myPopup">Dymek</span>
+</div>
+
+
+
+
+
+		</main>
+	
+		
+		<script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+		<script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+		<script src="scripts/drop.js"></script>
+	</body>
+</html>

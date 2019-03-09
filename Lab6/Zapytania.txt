@@ -1,0 +1,23 @@
+
+
+SELECT Imie FROM pilkarz
+
+SELECT DISTINCT Kraj FROM pilkarz;
+
+SELECT * FROM pilkarz WHERE ID=2;
+
+SELECT * FROM pilkarz WHERE Kraj='Portugalia' OR Pozycja='Napastnik';
+
+SELECT * FROM Pilkarz ORDER BY Kraj ASC, Imie DESC;
+
+INSERT INTO Pilkarz (Kraj, Imie, Nazwisko, Pozycja) VALUES ('Gabon', 'Damian', 'Szaralo', 'Napastnik');
+
+DELETE FROM Pilkarz WHERE Imie='Damian';
+
+SELECT * FROM Pilkarz WHERE Imie LIKE 'Damian';
+
+SELECT * FROM Pilkarz WHERE Imie LIKE '_etr';
+
+SELECT Nazwisko FROM Pilkarz WHERE Pozycja NOT IN ('Bramkarz');
+
+SELECT COUNT(id), Kraj FROM Pilkarz GROUP BY Kraj;
